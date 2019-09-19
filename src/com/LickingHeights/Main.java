@@ -8,6 +8,10 @@ public class Main {
        Scanner Keyboard;
        String whatsYourName;
        float height,weight;
+       float CONVERSION_IN_METERS = 0.0254f;
+       float COVERSION_IN_KILOGRAMS = 0.453592f;
+       float BMI;
+
 
 
         Keyboard = new Scanner(System.in);
@@ -20,7 +24,17 @@ public class Main {
         height = Keyboard.nextFloat();
         System.out.println("how much do you weigh?");
         weight = Keyboard.nextFloat();
-        
+
+
+        height = height * CONVERSION_IN_METERS;
+        weight = weight * COVERSION_IN_KILOGRAMS;
+
+       
+
+
+
+
+
 
 
 
