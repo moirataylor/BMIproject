@@ -29,7 +29,7 @@ public class Main {
         height = height * CONVERSION_IN_METERS;
         weight = weight * COVERSION_IN_KILOGRAMS;
 
-       
+        System.out.println("Your BMI is "+ (weight/height*height));
 
 
 
